@@ -5,6 +5,8 @@
  */
 package quiz2;
 
+import GUICreacionJuego.GetCoordenadas;
+
 /**
  *
  * @author Estudiante
@@ -15,7 +17,9 @@ public class Quiz2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        GetCoordenadas ch = new GetCoordenadas();
+        ch.setVisible(true);
+        
     }
     
 }
