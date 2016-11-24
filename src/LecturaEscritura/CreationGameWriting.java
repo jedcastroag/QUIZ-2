@@ -5,10 +5,14 @@
  */
 package LecturaEscritura;
 
+import java.io.File;
+
 /**
  *
  * @author lucho
  */
 public class CreationGameWriting {
+    
+    private File Games,Game,Hero,Enemies,Obstacles;
     
 }
