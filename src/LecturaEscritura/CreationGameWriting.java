@@ -9,6 +9,6 @@ package LecturaEscritura;
  *
  * @author lucho
  */
-public class NewClass {
+public class CreationGameWriting {
     
 }

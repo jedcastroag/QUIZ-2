@@ -19,7 +19,7 @@ public class GetCoordenadas extends JFrame{
 
     public GetCoordenadas() {
         this.setLayout(null);
-        this.setSize(900, 900);
+        this.setSize(500, 500);
         
         this.initComponents();
         this.addComponents();
@@ -50,13 +50,13 @@ public class GetCoordenadas extends JFrame{
     
     private void setLocationComponents(){
         //Etiquetas
-        this.Lcoox.setBounds(50, 50, 100, 20);
-        this.Lcooy.setBounds(50, 150, 100, 20);
+        this.Lcoox.setBounds(10, 50, 100, 20);
+        this.Lcooy.setBounds(10, 150, 100, 20);
         //Texto
-        this.Lcoox.setBounds(200, 50, 100, 20);
-        this.Lcooy.setBounds(200, 150, 100, 20);
+        this.Lcoox.setBounds(150, 50, 100, 20);
+        this.Lcooy.setBounds(150, 150, 100, 20);
         //Boton
-        this.accept.setBounds(300, 300, 200, 50);
+        this.accept.setBounds(170, 300, 200, 50);
     }
     
 }
